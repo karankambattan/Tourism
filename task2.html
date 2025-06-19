@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      background-image: url('file:///C:/Users/karan/Downloads/karan%20kambattan%20org%20resume.pdf');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 20px;
+    }
+
+    #main-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 250px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card::after {
+      content: '';
+      display: block;
+      height: 10px;
+      background: linear-gradient(to right, #2193b0, #6dd5ed);
+    }
+
+    .card > img {
+      width: 100%;
+      height: auto;
+    }
+
+    h1, h2 {
+      margin: 0;
+    }
+
+    .card h2::before {
+      content: "👤 ";
+    }
+
+    .card ul li:first-child {
+      font-weight: bold;
+    }
+
+    .card ul li:last-child {
+      font-style: italic;
+    }
+
+    .card ul li {
+      margin-left: 20px;
+    }
+
+    .bio {
+      padding: 10px;
+    }
+
+    .contact-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .contact-button:hover {
+      background-color: #45a049;
+    }
+
+    .card:nth-child(1) {
+      background-color: #fefefe;
+    }
+
+    .card:nth-child(2) {
+      background-color: #f0f0ff;
+    }
+
+    .card:nth-child(3) {
+      background-color: #fff0f0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    form input:focus {
+      outline: 2px solid #4CAF50;
+    }
+
+    form input::placeholder {
+      color: #aaa;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Our Team</h1>
+  <section id="main-container">
+
+    <div class="card">
+      <img src="/1734458791207.jpg" alt="Jane">
+      <div class="bio">
+        <h2>KARAN</h2>
+        <p>Frontend Developer and UI/UX designer with a passion for clean code and great coffee.</p>
+        <ul>
+          <li>Design</li>
+          <li>React</li>
+          <li>Coffee Brewing</li>
+        </ul>
+        <a class="contact-button"  href="file:///C:/Users/karan/Downloads/karan%20kambattan%20org%20resume.pdf">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="" alt="John">
+      <div class="bio">
+        <h2>KARAN</h2>
+        <p>Full Stack Developer who loves building tools and learning new tech.</p>
+        <ul>
+          <li>Node.js</li>
+          <li>Databases</li>
+          <li>Gaming</li>
+        </ul>
+        <a class="contact-button" href="#">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="" alt="Emily">
+      <div class="bio">
+        <h2>BALA</h2>
+        <p>Creative strategist with a knack for storytelling and branding.</p>
+        <ul>
+          <li>Branding</li>
+          <li>Storytelling</li>
+          <li>Travel</li>
+        </ul>
+        <a class="contact-button" href="#">Contact Me</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2025 Team Profiles. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>

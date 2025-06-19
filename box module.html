@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      
+      
+    {
+     font-family: Arial, sans-serif;
+        
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+ }
+  
+
+  #main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 300px;
+    background-color: rgb(33, 4, 162);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card::after {
+    content: '';
+    display: block;
+    height: 30px;
+    background: linear-gradient(to right, skyblue);
+    padding: auto;
+  }
+
+  .card > img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1, h2 {
+    margin: 0;
+  }
+
+  .card h2::before {
+    content: "👤 ";
+  }
+
+  .card ul li:first-child {
+    font-weight: bold;
+  }
+
+  
+
+  .card ul li {
+    margin-left: 20px;
+  }
+
+  .bio {
+    padding: 20px;
+  }
+
+  .contact-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color:blue;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+
+  .contact-button:hover {
+    background-color: #45a049;
+  }
+
+  .card:nth-child(1) {
+    background-color: #fefefe;
+    background-image: -webkit-linear-gradient(gold);
+  }
+
+  .card:nth-child(2) {
+    background-color: #429bb6;
+    background-image: -webkit-linear-gradient(red);
+  
+  }
+
+
+  
+
+  .card:nth-child(3) {
+    background-color: blue;
+    background-image: -webkit-repeating-linear-gradient(blue);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #0a0404;
+  }
+
+  form input:focus {
+    outline: 2px solid #4CAF50;
+  }
+
+  form input::placeholder {
+    color: #f70e0e;
+    font-style: italic;
+  }
+  h1 {
+    background-color:rgb(99, 95, 96);
+    font-family:  ;color: rgb(228, 118, 0);
+  }
+  footer{
+background-color: grey;
+
+  }
+
+</style>
+</head>
+<body>
+
+<h1>TEAM INDIAN CRICKETERS</h1>
+<section id="main-container">
+
+  <div class="card">
+    <img src="/msd download (2).jpg" alt="Jane">
+    <div class="bio">
+      <h2>MS.DHONI</h2>
+      <p>Member TEAM INDIA, Biker, Gamer, hindi retro aficionado, an absolute pet-lover,caption of csk.former indian captian. </p>
+      <ul>
+        <li>cricketer</li>
+        <li>leftunant</li>
+        <li>farmer</li>
+      </ul>
+      <a class="contact-button" href="https://x.com/msdhoni?">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/VIRAT images.jpg" alt="John">
+    <div class="bio">
+      <h2>VIRAT KHOLI</h2>
+      <p> He is player Test, ODI, and T20I he plays for Royal Challengers Bangalore in the Indian Premier League (IPL). </p>
+      <ul>
+        <li>cricketer</li>
+        <li>Top order batsman</li>
+        <li>partime bowler</li>
+      </ul>
+      <a class="contact-button" href="https://www.instagram.com/virat.kohli/?hl=en" >Contact Me</a>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="card">
+    <img src="/pandya.jpg"   alt="Emily">
+    <div class="bio">
+      <h2>HARDIK PANDYA</h2>
+      <p> He is an all-rounder who is a right-handed middle order batsman and fast-medium bowler. </p>
+      <ul>
+        <li>criketer</li>
+        <li>batsman</li>
+        <li>allrounder</li>
+      </ul>
+      <a class="contact-button" href="https://www.instagram.com/hardikpandya93/?hl=en">Contact Me</a>
+    </div>
+    
+  </div>
+  <div class="card 3">
+    <img src="/rohit download (4).jpg" alt="Jane">
+    <div class="bio">
+      <h2>ROHIT SHARMA</h2>
+      <p>Member TEAM INDIA, farmer captian team india an absolute pet-lover,caption of csk.former indian captian. </p>
+      <ul>
+        <li>cricketer</li>
+        <li>opening batsman</li>
+        <li>india caption</li>
+      </ul>
+      <a class="contact-button" href="https://www.instagram.com/rohitsharma45/?hl=en">Contact Me</a>
+    </div>
+
+</section>
+
+<footer>
+  &copy; <b>2025 Team Profiles. All rights reserved.</b>
+</body>
+</html>

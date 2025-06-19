@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .outercontainer{
+            background-color:rgb(240, 240, 245);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+            grid-template-rows: 100px 100px 100px;
+            grid-auto-flow: column;
+            
+            
+
+        }
+        .outercontainer .innerdiv {
+            background-color: blueviolet;
+            color: rgb(255, 255, 255);
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outercontainer">
+    <div class="innerdiv">1</div>
+    <div class="innerdiv">2</div>
+    <div class="innerdiv">3</div>
+    <div class="innerdiv">4</div>
+    <div class="innerdiv">5</div>
+    <div class="innerdiv">6</div>
+    <div class="innerdiv">7</div>
+    <div class="innerdiv">8</div>
+    <div class="innerdiv">9</div>
+</div>
+</body>
+</html>
